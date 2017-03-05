@@ -40,6 +40,8 @@ GCLOUD_STORAGE_BUCKET=[your-bucket-name] node index.js
     curl -F "file=@/Users/..." localhost:8080/upload
 ```
 
+![Screenshot Google Cloud](/screenshot-gcloud.png)
+
 ## Amazon Web Services S3
 
 Using [AWS CLI](https://github.com/aws/aws-cli),
@@ -94,6 +96,8 @@ AWS_S3_BUCKET=[your-bucket-name] node index.js
 ```bash
     curl -F "file=@/Users/..." localhost:8080/upload
 ```
+
+![Screenshot AWS](/screenshot-aws.png)
 
 ## Notes - Signed URLS
 
