@@ -9,6 +9,7 @@
   "author": "Philip Jama",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.22.0",
     "body-parser": "^1.17.0",
     "multer": "^1.3.0"
   }
